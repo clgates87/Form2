@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Contact Johnathan</title>
+  <style>
+    *{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+    }
+
+    html{
+    background-color: rgb(37, 41, 37) ;
+    }
+
+    nav{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-top: 0px;
+    padding-left: 10%;
+    padding-right: 10%;
+    background-color: rgb(28, 32, 28);
+    }
+
+    .logo{
+    color: white;
+    font-size: 28px;
+    cursor: pointer;
+    text-decoration: none;
+    }
+
+    span{
+      color: rgb(4, 180, 4);
+    }
+
+    a{
+      text-decoration: none;
+      color: white;
+    }
+
+    nav ul li{
+      list-style: none;
+      display: inline-block;
+      padding: 10px 20px;
+    }
+
+    nav ul li a{
+      color: white;
+      text-decoration: none;
+      font-weight: bold;
+    }
+
+    nav ul li a:hover{
+      color: rgb(4, 180, 4);
+      transition: .3s;
+    }
+
+    h1{
+      color: white;
+      padding-top: 20px;
+      text-align: center;
+      font-size: 35px;
+      text-transform: uppercase;
+    }
+    
+    .container{
+      width: 400px;
+      height: 460px;
+      background: rgb(2, 102, 2);
+      padding: 10px;
+      margin: 100px auto;
+      box-shadow: 0px 10px 8px rgb(0, 0, 0, 0.5);
+      border-radius: 25px;
+      border: 1px solid rgb(4, 104, 4);
+    }
+
+    form{
+      width: 260px;
+      margin: 20px 37px;
+      text-align: center;
+    }
+
+    input, textarea{
+      width: 100%;
+      padding: 7px;
+      margin-left: 25px;
+      border: none;
+      outline: none;
+      display: block;
+      border-radius: 4px;
+      margin-bottom: 10px;
+      border: 1px solid rgb(4, 180, 4);
+    }
+
+    button{
+      width: 50%;
+      border: none;
+      outline: none;
+      padding: 10px;
+      background-color: rgb(4, 180, 4);
+      color: white;
+      cursor: pointer;
+      margin-top: 15px;
+      border-radius: 7px;
+      margin-left: 50px;
+    }
+
+    button:hover{
+      background-color: rgb(10, 148, 10); 
+    }
+  </style>
+</head>
+<body>
+  <div class="hero">
+    <nav>
+      <h2 class="logo"><a href="/index.html">Cobb <span>Landscapes</span></a></h2>
+      <ul>
+        <li><a href="/index.html">Home</a></li>
+        <li><a href="/services.html">Services</a></li>
+        <li><a href="/contact.html">Contact</a></li>
+      </ul>
+    </nav>
+  </div>
+  <div class="container">
+    <h1>Contact Johnathan</h1>
+    <form action="">
+      <input type="text" name="Name" placeholder="Name" required>
+      <input type="email" name="Email" placeholder="Email" required>
+      <textarea cols="30" rows="8" name="Message" placeholder="Message" required></textarea>
+      <button type="submit">Send</button>
+    </form>
+  </div>
+</body>
+</html>
